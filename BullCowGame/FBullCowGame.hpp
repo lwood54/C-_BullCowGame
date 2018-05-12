@@ -47,7 +47,6 @@ public:
     
     
 
-// Ignore private for now, focus on public ^^^
 private:
     // see constructor for initialization
     int32 MyCurrentTry; // compile time values(these), will be overridden by runtime values (in constructor)

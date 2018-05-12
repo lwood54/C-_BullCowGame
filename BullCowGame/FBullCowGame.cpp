@@ -23,6 +23,7 @@ int32 FBullCowGame::GetCurrentTry() const {return MyCurrentTry;}
 int32 FBullCowGame::GetHiddenWordLength() const { return MyHiddenWord.length(); }
 bool FBullCowGame::IsGameWon() const { return bGameIsWon; }
 
+
 // resets all values, also used at start of game
 void FBullCowGame::Reset()
 {

@@ -102,6 +102,12 @@ Ftext GetValidGuess()
 	return Guess;
 }
 
+bool IsLowercase(FString word)
+{
+	
+	return true;
+}
+
 bool AskToPlayAgain()
 {
 	std::cout << "\nDo you want to play again with the same hidden word? (y/n)";
